@@ -6,8 +6,8 @@
 
 ### OPTIONS AND VARIABLES ###
 
-dotfilesrepo="https://github.com/lukesmithxyz/voidrice.git"
-progsfile="https://raw.githubusercontent.com/LukeSmithxyz/LARBS/master/static/progs.csv"
+dotfilesrepo="https://github.com/Gekiretsu/voidrice.git"
+progsfile="https://raw.githubusercontent.com/Gekiretsu/LARBS/master/static/progs.csv"
 aurhelper="yay"
 repobranch="master"
 export TERM=ansi
@@ -21,7 +21,7 @@ https://landchad.net/rss.xml
 https://based.cooking/index.xml
 https://artixlinux.org/feed.php \"tech\"
 https://www.archlinux.org/feeds/news/ \"tech\"
-https://github.com/LukeSmithxyz/voidrice/commits/master.atom \"~LARBS dotfiles\""
+https://github.com/Gekiretsu/voidrice/commits/master.atom \"~LARBS dotfiles\""
 
 ### FUNCTIONS ###
 
@@ -37,7 +37,7 @@ error() {
 
 welcomemsg() {
 	whiptail --title "Welcome!" \
-		--msgbox "Welcome to Luke's Auto-Rice Bootstrapping Script!\\n\\nThis script will automatically install a fully-featured Linux desktop, which I use as my main machine.\\n\\n-Luke" 10 60
+		--msgbox "Welcome to Chinmoku's Auto-Rice Bootstrapping Script!\\n\\nThis script will automatically install a fully-featured Linux desktop, which I use as my main machine.\\n\\n-Luke" 10 60
 
 	whiptail --title "Important Note!" --yes-button "All ready!" \
 		--no-button "Return..." \
